@@ -1,0 +1,15 @@
+{
+    "name": "DK App",
+    "short_name": "Dik08razz Hub",
+    "start_url": ".",
+    "display": "standalone",
+    "background": "black",
+    "icons": [{
+        "src": "res/icon/favicon.png",
+        "size": "1024x1024",
+        "type": "image/png"
+    }],
+    "related_application": [{
+        "platform": "web"
+    }]
+}
