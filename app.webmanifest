@@ -2,7 +2,7 @@
     "name": "DK App",
     "short_name": "Dik08razz Hub",
     "start_url": ".",
-    "display": "standalone",
+    "display": "minimal-ui",
     "background": "black",
     "icons": [{
         "src": "res/icon/favicon.png",
