@@ -16,3 +16,12 @@
     color: white;
     font-family: 'MacPawFixelDisplayRegular';
 }
+
+.header {
+    background-color: brown;
+    text-align: center;
+    width: 600px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
