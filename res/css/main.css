@@ -1,3 +1,9 @@
+/* Color palette */
+/* #404258 */
+/* #474E68 */
+/* #50577A */
+/* #6B728E */
+
 
 /* Webfont: MacPawFixelDisplay-Regular */
 @font-face {
@@ -12,16 +18,24 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #404258;
     color: white;
     font-family: 'MacPawFixelDisplayRegular';
 }
 
 .header {
-    background-color: brown;
-    text-align: center;
+    background-color: #474E68;
     width: 600px;
     height: 40px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header p {
+    margin: 0;
+    background-color: #474E68;
 }
