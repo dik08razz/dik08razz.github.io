@@ -6,3 +6,7 @@
 .header p {
     font-size: 32px;
 }
+
+.container {
+    width: auto;
+}

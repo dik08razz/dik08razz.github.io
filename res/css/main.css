@@ -39,3 +39,24 @@
     margin: 0;
     background-color: #474E68;
 }
+
+.container {
+    background-color: #474E68;
+    margin-top: 10px;
+    width: 600px;
+    min-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.subContainer {
+    background-color: #50577A;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
