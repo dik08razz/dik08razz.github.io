@@ -8,8 +8,8 @@
 /* Webfont: MacPawFixelDisplay-Regular */
 @font-face {
     font-family: 'MacPawFixelDisplayRegular';
-    src: url('/res/fonts/MacPawFixelDisplay-Regular.woff2') format('woff2'), /* Modern Browsers */
-         url('/res/fonts/MacPawFixelDisplay-Regular.otf') format('opentype'); /* Safari, Android, iOS */
+    src: url('/res/fonts//MPFD/MPFD-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('/res/fonts/MPFD/MPFD-Regular.otf') format('opentype'); /* Safari, Android, iOS */
              font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
