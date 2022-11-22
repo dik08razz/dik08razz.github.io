@@ -15,14 +15,6 @@
     text-rendering: optimizeLegibility;
 }
 
-@font-face {
-    font-family: 'Rutenia';
-    src: url('/res/fonts/Rutenia/Rutenia.otf') format('opentype'); /* Safari, Android, iOS */
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -31,42 +23,10 @@
     font-family: 'MacPawFixelDisplayRegular';
 }
 
-.header {
-    background-color: #474E68;
-    width: 600px;
-    height: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 0 0 10px 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.header p {
-    margin: 0;
-    font-family: 'Rutenia';
-    background-color: #474E68;
-    font-size: 32px;
-}
-
 .container {
-    background-color: #474E68;
-    margin-top: 10px;
+    background-color: #474e68;
     width: 600px;
-    min-height: auto;
+    min-height: 10px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
-    padding-top: 5px;
-    padding-bottom: 10px;
-}
-
-.subContainer {
-    background-color: #50577A;
-    padding: 5px;
-    border-radius: 10px;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
 }
