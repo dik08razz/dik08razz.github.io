@@ -1,16 +1,16 @@
-/* Color palette */
-/* #404258 */
-/* #474E68 */
-/* #50577A */
-/* #6B728E */
-
-
 /* Webfont: MacPawFixelDisplay-Regular */
 @font-face {
-    font-family: 'MacPawFixelDisplayRegular';
-    src: url('/res/fonts//MPFD/MPFD-Regular.woff2') format('woff2'), /* Modern Browsers */
-         url('/res/fonts/MPFD/MPFD-Regular.otf') format('opentype'); /* Safari, Android, iOS */
-             font-style: normal;
+    font-family: 'MPFD-Regular';
+    src: url('/res/fonts/MPFD/MPFD-Regular.otf') format('opentype'); /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'e-ukraine-regular';
+    src: url('/res/fonts/e-Ukraine/e-Ukraine-Regular.otf') format('opentype'); /* Safari, Android, iOS */
+    font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
@@ -20,7 +20,7 @@
     padding: 0;
     background-color: #404258;
     color: white;
-    font-family: 'MacPawFixelDisplayRegular';
+    font-family: 'MPFD-Regular';
 }
 
 .container {
@@ -29,4 +29,5 @@
     min-height: 10px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
 }
