@@ -15,6 +15,14 @@
     text-rendering: optimizeLegibility;
 }
 
+@font-face {
+    font-family: 'Rutenia';
+    src: url('/res/fonts/Rutenia/Rutenia.otf') format('opentype'); /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +34,7 @@
 .header {
     background-color: #474E68;
     width: 600px;
-    height: 40px;
+    height: 50px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 0 0 10px 10px;
@@ -37,7 +45,9 @@
 
 .header p {
     margin: 0;
+    font-family: 'Rutenia';
     background-color: #474E68;
+    font-size: 32px;
 }
 
 .container {
